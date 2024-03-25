@@ -1,43 +1,24 @@
 import './Hero.css'
- import Carasuoel1 from './carasuoel1.jpg';
- import Carasuoel2  from './carasuoel2.jpg';
-
- const ImageList = [
-  {
-    id:1,
-    img: Carasuoel1,
-    title: "Aliminium Tensioner",
-    description: 
-    "Gaint heavy duty aluminium tensioner with oilless bearings in handle and baseFor 19 mm to 32 mm Cord Strapping YBICO Taiwan Make",
-
-  },
-  {
-    id:2,
-    img: Carasuoel2,
-    title: "Aliminium Tensioner",
-    description: 
-    "Gaint heavy duty aluminium tensioner with oilless bearings in handle and baseFor 19 mm to 32 mm Cord Strapping YBICO Taiwan Make",
-
-  }
- ]
-const Hero = () => {
+import Image from '../Hero/banner1.jpg'
+ 
+ const Hero = () => {
   return (
-  
-    <div>
-      <div>
-        <div className=''>
-          <div>
-        Banner
-          </div>
-          <div>
-            <img src="" alt=''/>
-          </div>
-
-        </div>
-      </div>
-    </div>
+    <section id="hero">
+    <div className="hero-container container">
+      <div className="hero-left">
+        <h1>Vels Enterprises</h1>
+        <p>Your One-Stop Destination for Quality Packing Solutions. At vels Enterprises, we understand the importance of reliable and effective packing solutions to safeguard your valuable items during transit. 
+            Whether you're moving to a new home, shipping products to customers, or storing items for the long term, we've got you covered with our wide range of high-quality packing items and supplies.</p>
+      <button className='btn'>Learn More</button>
     
-    )
-}
 
+      </div>
+      <div className='hero-right'>
+        <img src={Image}/>
+      </div>
+      
+    </div>
+    </section>
+  )
+}
 export default Hero

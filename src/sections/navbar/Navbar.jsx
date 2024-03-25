@@ -12,13 +12,9 @@ const Navbar = () => {
                 <a href="" className="logo">Vels Enterprises</a>
                 <div className='logo1'>
                 <img src={logo} alt='' className='logo'/>
-                </div>
-                <div className="search-box">
-                    <input type="search" name="search" id="" placeholder="search for products"/>
-                        <div className="search-icon"><RiSearchLine/></div>
-                   </div>
-                </div>
-    
+    </div>
+               </div>
+              
             <hr />
             <div className="bn-container container">
                 <ul className= "navlist">

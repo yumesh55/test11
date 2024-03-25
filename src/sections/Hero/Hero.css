@@ -1,5 +1,5 @@
 #hero{
-    padding: 0 0.9rem;
+    padding: 0 0 9rem;
 }
 
 .hero-container{
@@ -8,3 +8,18 @@
     gap: 2rem;
 }
 
+.hero-left{
+    position: relative;
+    top: 11rem;
+   
+}
+
+.hero-left p{
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.hero-right>img{
+    position: relative;
+    top: 10rem;
+}

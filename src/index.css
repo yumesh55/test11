@@ -14,7 +14,7 @@
   --color-light :  hsl(0, 0%, 92%);
   --color-dark :  hsl(270, 5%, 44%);
   --color-black :  hsl(270, 5%, 15%);
-  --color-bg :  hsl(210, 17%, 98%);
+  --color-bg :  hsl(0, 0%, 81%);
   --color-bg-1 :  hsl(234, 80%, 91%);
   --color-primary :  hsl(235, 81%, 77%);
   --color-secondary :  hsl(244, 74%, 61%);
@@ -154,7 +154,27 @@ img{
   background: var(--color-primary);
   border-radius: var(--border-radius-1);
 }
- 
+
+.btn{
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: .9rem 2.2rem;
+  border-radius: var(--border-radius);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition);
+}
+ .btn:hover{
+  transform: translateY(-0.1rem);
+  box-shadow: var(--box-shadow);
+  background: var(--color-secondary);
+ }
 @media screen and (max-width: 1024px) {
   body{
     font-size: 1rem;
