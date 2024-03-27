@@ -21,7 +21,7 @@ const Categories = () => {
          <CategoriesCard key={category.imgURL} {...category} />
         )) 
       }
-
+<button className='btn1'>More Products</button>
     </div>
     <div className='services'>
     <h2>Why Choose Us?</h2>
