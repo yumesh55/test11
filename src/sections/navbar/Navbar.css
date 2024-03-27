@@ -1,9 +1,15 @@
 .tn-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0.5rem 0;
+    
+
 }
+
+.me-auto{
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 2rem;
+}
+
 
 .logo{
     font-size: 1.5rem;
@@ -13,10 +19,11 @@
     letter-spacing: 0.1rem;
     color: var(--color-dark);
     border-radius: var(--border-radius);
+    margin-left: -4%;
 }
  .logo1{
     width: 99px;
-    margin-right: -7%;
+    margin-left: -50%;
     display: flex;
     image-resolution: 100%;
  }
@@ -71,18 +78,3 @@ nav hr{
     position: relative;
  }
 
- .navlist li a::after {
-    content: '';
-    position: absolute;
-    bottom: -0.5rem;
-    left: 0;
-    height: 0.15rem;
-    width: 0%;
-    border-radius: var(--border-radius-1);
-    background: var(--color-primary);
-    transition: var(--transition);
- }
-
- .navlist li a:hover::after{
-    width: 100%;
- }

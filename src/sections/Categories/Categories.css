@@ -1,12 +1,13 @@
-.categories-container{
+.categories-container {
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 2rem;
+  gap: 5rem;
 }
 
-.categories-card{
+.categories-card {
   text-align: center;
   cursor: pointer;
+  
 }
 
 .categories-card img{
@@ -23,7 +24,7 @@
   font-weight: 500;
 }
 .btn1{
-  margin-left: 180%;
+  margin-left: 212%;
 }
 .services{
   padding: 50px 5%;

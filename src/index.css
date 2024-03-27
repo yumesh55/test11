@@ -9,6 +9,9 @@
   outline: none;
   font-family: 'Poppins', sans-serif;
 }
+a{
+  text-decoration: none;
+}
 :root{
   --color-white : hsl(0, 5%, 100%);
   --color-light :  hsl(0, 0%, 92%);
