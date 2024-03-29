@@ -1,5 +1,5 @@
 import ProductData from '../components/ProductData'
-import { productCard } from '../constants/product'
+import { productCard } from './product'
 import './products.css'
 
 export const Products = () => {

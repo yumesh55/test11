@@ -2,6 +2,7 @@ import './Footer.css'
 import logo from '../Footer/logo.jpg';
 import { BiMap } from "react-icons/bi";
 import { BsTelephone } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -19,10 +20,10 @@ const Footer = () => {
         <div className="footer-title">Quick Links</div>
         <div className="footer-row">
           <div className="col">
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Contact</a></li>
+          <Link to="/Home"><li><a href="">Home</a></li></Link>
+           <Link to="/About Us"><li><a href="">About Us</a></li></Link>
+           <Link to="/Products"><li><a href="">Products</a></li></Link>
+           <Link to="/Contact Us"><li><a href="">Contact</a></li></Link>
             <li><a href="">Sitemap</a></li>
         <li><a href="">Download Brochure</a></li>
           </div>

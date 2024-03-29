@@ -1,4 +1,5 @@
-import './Navbar.css'
+import React from 'react'
+import './contact.css'
 {/*import { RiSearchLine } from 'react-icons/ri' */}
 import logo from './logo.jpg'
 import Container from 'react-bootstrap/Container';
@@ -6,9 +7,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
-const navbar = () => {
+const Contact = () => {
   return (
-<>
     <div className="tn-container container">
     <Navbar fixed= "" style={{backgroundSize: "0", backgroundColor: "var(--color-primary)"}} data-bs-theme="light">
     <Container>
@@ -26,11 +26,7 @@ const navbar = () => {
   
 </div>
 
-    
-
-
-</>
   )
 }
 
-export default navbar
+export default Contact

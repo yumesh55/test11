@@ -6,6 +6,8 @@ import Categories from './sections/Categories/Categories'
 import Footer from './sections/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from './Products/Products'
+import About from './About/About'
+import Contact from './contact/Contact'
 
 
 
@@ -21,7 +23,9 @@ const App = () => {
     <Route path='/Products' element={ <Products/>} /> 
     <Route path='/Categories' element={ <Categories/>} /> 
     <Route path='/Footer' element={ <Footer/>} /> 
-
+    <Route path='/About Us' element={<About/>}/>
+    <Route path='/Contact Us' element={<Contact/>}/>
+    
     </Routes>
    <Categories/>
    <Footer/>
