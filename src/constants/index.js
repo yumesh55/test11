@@ -17,3 +17,4 @@ export const categoryData = [
         title:'Cord Strap'
     },
 ];
+
