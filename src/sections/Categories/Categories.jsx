@@ -6,6 +6,7 @@ import { BiSelectMultiple } from "react-icons/bi";
 import { IoPricetagOutline } from "react-icons/io5";
 import { GrUserExpert } from "react-icons/gr";
 import { AiOutlineCalendar } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 
 const Categories = () => {
@@ -21,7 +22,7 @@ const Categories = () => {
          <CategoriesCard key={category.imgURL} {...category} />
         )) 
       }
-<button className='btn1'>More Products</button>
+<Link to='/Products'><button className='btn1'>More Products</button></Link>
     </div>
     <div className='services'>
     <h2>Why Choose Us?</h2>

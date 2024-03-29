@@ -15,7 +15,7 @@ const navbar = () => {
       <Navbar.Brand><img className="logo1" src={logo}></img></Navbar.Brand>
       <Navbar.Brand className="logo" href="#home">Vels Enterprises</Navbar.Brand>
       <Nav className="me-auto">
-        <Link to="/navbar"><Nav.Link href="#home">Home</Nav.Link></Link>
+        <Link to="/Home"><Nav.Link href="#home">Home</Nav.Link></Link>
         <Nav.Link href="#About Us">About Us</Nav.Link>
         <Link to="/Products"><Nav.Link href="#Products">Products</Nav.Link></Link>
         <Nav.Link href="#Contact Us">Contact Us</Nav.Link>
