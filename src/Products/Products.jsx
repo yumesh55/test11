@@ -1,9 +1,12 @@
 import ProductData from '../components/ProductData'
 import { productCard } from './product'
 import './products.css'
+import Navbar from '../sections/navbar/Navbar'
 
 export const Products = () => {
   return (
+    <>
+    <Navbar/>
     <section id="categories">
   <div className="title">
     <h2>Products</h2>
@@ -17,7 +20,7 @@ export const Products = () => {
       }
       </div>
 </section>
-   
+   </>
   )
 
 
