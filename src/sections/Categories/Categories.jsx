@@ -5,7 +5,6 @@ import { AiOutlineLineChart } from "react-icons/ai";
 import { BiSelectMultiple } from "react-icons/bi";
 import { IoPricetagOutline } from "react-icons/io5";
 import { GrUserExpert } from "react-icons/gr";
-import { AiOutlineCalendar } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 
@@ -24,6 +23,7 @@ const Categories = () => {
       }
 <Link to='/Products'><button className='btn1'>More Products</button></Link>
     </div>
+    
     <div className='services'>
     <h2>Why Choose Us?</h2>
    <p>We source our packing items from trusted suppliers to ensure exceptional quality and reliability,

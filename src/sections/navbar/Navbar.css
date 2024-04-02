@@ -1,15 +1,38 @@
 .tn-container {
-    padding: 0.5rem 0;
-    
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.me-auto{
-    font-size: 1rem;
-    font-weight: 600;
-    gap: 2rem;
-}
+a:link {
+    text-decoration: none;
 
+  }
+  
+  a:visited {
+    text-decoration: none;
+ 
+  }
+  
+  a:hover {
+    text-decoration: none;
+  
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+
+nav hr{
+   background: var(--color-light);
+   height: 0.05rem;
+   width: 100%;
+   border: none;
+   outline: none;
+   margin-bottom: 0.5rem;
+}
 
 .logo{
     font-size: 1.5rem;
@@ -19,40 +42,14 @@
     letter-spacing: 0.1rem;
     color: var(--color-dark);
     border-radius: var(--border-radius);
-    margin-left: -4%;
 }
  .logo1{
     width: 99px;
-    margin-left: -50%;
     display: flex;
     image-resolution: 100%;
  }
-.search-box{
-    width: 555px;
-    border: var(--border-2);
-    border-radius: var(--border-radius-1);
-    padding: 0.5rem 1rem;
-    border-color: var(--color-light);
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-right: -6.9%;
-}
-
-.search-box input{
-    width: 100%;
-    display: block;
-    font-weight: 500;
-}
-
-.search-icon{
-    color: var(--color-dark);
-    font-size: 1rem;
-    cursor: pointer;
-}
-
 nav hr{
-    background: var(--color-light);
+    background: var(--color-dark);
     height: 0.05rem;
     width: 100%;
     border: none;
@@ -78,3 +75,22 @@ nav hr{
     position: relative;
  }
 
+.navlist li a:hover{
+    color: var(--color-primary);
+}
+
+.navlist li a::after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    height: 0.15rem;
+    width: 0%;
+    border-radius: var(--border-radius-1);
+    background: var(--color-primary);
+    transition: var(--transition);
+}
+
+.navlist li a:hover::after{
+    width: 100%;
+}
