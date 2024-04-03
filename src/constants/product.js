@@ -12,4 +12,39 @@ export const productCard = [
         imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/359350260/ID/AS/QG/181775210/pneumatic-coil-nailer-machine-500x500.jpg',
         title:'Pneumatic Coil Nailers'
     },
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/358598514/DE/VE/DA/181775210/pet-strapp-roll-500x500.png',
+        title:'16mm Polyester Pet Strapping Rolls'
+    },
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/358627514/BK/RU/PA/181775210/pet-strap-500x500.jpg',
+        title:'19mm polyster pet strapping rolls'
+    },
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/358598514/DE/VE/DA/181775210/pet-strapp-roll-500x500.png',
+        title:'16mm Polyester Pet Strapping Rolls'
+    },
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/359031706/YO/JG/EH/181775210/printed-cordstrap-commerce-in-chennai-tamilnadu-500x500.jpg',
+        title:'25mm Polyester Composite Cord Strap'
+    },
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/359035702/AS/GY/VP/181775210/polyester-cord-strap-with-buckle-500x500.jpg',
+        title:'32mm Polyester Composite Cord Strap'
+    },
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/358873444/KS/RR/EL/181775210/polyester-cord-strap-500x500.jpg',
+        title:'16 mm Polyester Composite Corded Strap'
+    },
+  
+   
+   
 ];
+
+export const productCard2 = [
+    {
+        imgURL:'https://5.imimg.com/data5/SELLER/Default/2023/11/362073738/PJ/PI/BC/181775210/cargo-cambuckle-lashing-500x500.jpg',
+        title:'Cargo Cambuckle Lashing',
+        price : 90
+    },
+]
