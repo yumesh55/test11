@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-const ProductData = ({imgURL, title , price}) => {
+const ProductData = ({imgURL, title , Description}) => {
 
     return(
         <div className="product-data">
             <img src={imgURL} alt=""/>
             <h4>{title}</h4>
-            <p> Price : {price}</p>
+            <p className="Description"> Description : {Description}</p>
             <Link to='/Contact Us'><button className='btn'>Enquiry</button></Link>
         </div>
     )

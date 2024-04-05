@@ -1,5 +1,5 @@
 import ProductData from '../components/ProductData'
-import { productCard } from '../constants/product'
+import { productCard1 } from '../constants/product'
 import { productCard2 } from '../constants/product'
 import './products.css'
 import Navbar from '../sections/navbar/Navbar'
@@ -12,16 +12,16 @@ export const Products = () => {
   <div className="title">
     <h2>Products</h2>
 </div>
-<h3>Strapping Roll</h3>
+
 <div className="item-card">
       {
-        productCard.map((product) => (
-         <ProductData key={product.imgURL} {...product} />
+        productCard1.map((product1) => (
+         <ProductData key={product1.imgURL} {...product1} />
         )) 
       }
       
       </div>
-      <h4>Lashing Belt</h4>
+  
       <div className="item-card1">
       {
         productCard2.map((product2) => (

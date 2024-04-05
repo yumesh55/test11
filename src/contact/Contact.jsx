@@ -10,12 +10,35 @@ const Contact = () => {
   
   <div className="contact-container">
     <div className="form">
-      <div className="contact-info"></div>
+      <div className="contact-info">
+              <h3 className="info">Vels Enterprises</h3>
+
+          <div className="info1">
+            <div className="information">
+          <h7>Address: </h7>
+           <p>236M, LIC Colony Sidco Post, Pollachi Main Road, Coimbatore Industrial Estate Sub Post Office, Coimbatore-641021, Tamil Nadu, India</p>
+            </div>
+
+            <div className="information">
+              <h7>Contact Number: </h7>
+                <p>Ajith : 7942619417</p>
+            </div>
+
+            <div className="information">
+              <h7>Maps</h7>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.7213039442013!2d76.97605323697707!3d10.943394016350867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b0d36d281b9%3A0x649f62539c00be34!2sVels%20Enterprises!5e0!3m2!1sen!2sin!4v1712327841978!5m2!1sen!2sin" width="400" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+      </div>
         <div className="contact-form">
           <span className="circle one"></span>
           <span className="circle two"></span> 
 
-          <form action="index.html">
+          <form action="https://formsubmit.co/yumeshjayasutha@gmail.com" method="POST" >
+           {/*<input type="hidden" name="_captcha" value="false"/>*/}
+          <input type="hidden" name="_autoresponse" value="Dear Customer, Thanks for Choosing Vels Enterprises. Our exceutive will get into touch shortly. "></input>
+          
             <h3 className="title1">Contact us</h3>
             <div className="input-container">
               <input type="text" name="name" class="input"/>
@@ -37,8 +60,8 @@ const Contact = () => {
 
             <div className="input-container text-area">
               <textarea name="message" class="input"></textarea>
-              <label for="">Message</label>
-              <span>Message</span>
+              <label for="">Requirement Details</label>
+              <span>Requirement Details</span>
             </div>
             <input type='submit' value="Send Enquiry" class='btn'/>
           </form>

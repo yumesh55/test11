@@ -142,3 +142,42 @@ textarea.input{
     z-index: 500;
     
 }
+
+.input-container input:focus~label,
+.input-container input:valid~label{
+    top: 0;
+    font-size: 1rem;
+    background: var(--color-primary)
+}
+
+.icon{
+    width: 28px;
+    margin-right: 0.7rem;
+}
+
+.contact-info{
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+
+.contact-info .info1{
+    color: #1abc9c ;
+}
+
+.text{
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.information{
+    display: grid;
+    color: #555;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+h7{
+    font-weight: 900;
+    margin-bottom: 9px;
+}
