@@ -1,7 +1,7 @@
 .categories-container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+
   gap: 6rem;
+ 
 }
 
 .categories-card {
@@ -14,18 +14,57 @@
 .categories-card img{
   background-size: cover;
   background-position: center;
-  border: var(--border-1);
-  border-radius: var(--border-radius-2);
+  border: var(--border-2);
+  border-color: var(--color-primary);
+  border-radius: var(--border-radius-1);
+  padding: 15%;
+  transform: 250ms;
+  opacity: 400ms;
+  transition: 100ms;
+ 
 }
-
+.categories-card img:hover {
+  transform: scale(1.2);
+  opacity: 20;
+}
 .categories-card h4{
   margin-top: 1.5rem;
   text-transform: uppercase;
   font-size: .95rem;
   font-weight: 500;
 }
+.headerr{
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: .9rem 2.2rem;
+  border-radius: var(--border-radius);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 1%;
+  margin-left: 7%;
+}
+.hoses{
+ 
+  padding: 1%;
+  padding-bottom: 10%;
+}
+
+.hoses1{
+
+  padding: 1%;
+  padding-bottom: 10%;
+}
+
 .btn1{
-margin-left: 150%;
+margin-left: 44%;
+margin-top: 4%;
 }
 .services{
   padding: 50px 5%;

@@ -1,5 +1,7 @@
 import CategoriesCard from '../../components/CategoriesCard'
 import { categoryData } from '../../constants'
+import { categoryData1 } from '../../constants';
+import { categoryData2 } from '../../constants';
 import './Categories.css'
 import { AiOutlineLineChart } from "react-icons/ai";
 import { BiSelectMultiple } from "react-icons/bi";
@@ -10,20 +12,56 @@ import { Link } from 'react-router-dom';
 
 const Categories = () => {
   return (
+    
  <section id="categories">
+
   <div className="title">
     <h2>Our Products</h2>
     </div>
 
+    <div className="row">
+      <div className="col-md-4">
     <div className="categories-container container">
       {
         categoryData.map((category) => (
-         <CategoriesCard key={category.imgURL} {...category} />
+          <Link to='/Products'><CategoriesCard key={category.imgURL} {...category} /></Link>
         )) 
       }
-<Link to='/Products'><button className='btn1'>More Products</button></Link>
+ 
+</div>
+<div className="hoses">
+<Link to='/Products'><p className="headerr">Packing Items</p></Link>
+</div>
     </div>
     
+    <div className="col-md-4">
+    <div className="categories-container container">
+      {
+        categoryData1.map((category1) => (
+          <Link to='/Products'><CategoriesCard key={category1.imgURL} {...category1} /></Link>
+        )) 
+      }
+         </div>
+         <div className="hoses1">
+         <Link to='/Products'><p className="headerr">Yibco Tools</p></Link>
+         </div>
+    </div>
+
+    <div className="col-md-4">
+    <div className="categories-container container">
+      {
+        categoryData2.map((category2) => (
+          <Link to='/Products'><CategoriesCard key={category2.imgURL} {...category2} /></Link>
+        )) 
+      }
+    
+  </div>
+  <div className="hoses">
+  <Link to='/Products'><p className="headerr">Hoses</p></Link>
+  </div>
+    </div>
+    
+</div>
     <div className='services'>
     <h2>Why Choose Us?</h2>
    <p>We source our packing items from trusted suppliers to ensure exceptional quality and reliability,
