@@ -1,12 +1,11 @@
 import ProductData from '../components/ProductData'
-import { productCard1 } from '../constants/product'
-import { productCard2 } from '../constants/product'
+import { productCard3 } from '../constants/product'
 import './products.css'
 import Navbar from '../sections/navbar/Navbar'
 import Footer from '../sections/Footer/Footer'
 import { Link } from 'react-router-dom';
 
-export const Products = () => {
+const Hoses = () => {
   return (
     <>
     <Navbar/>
@@ -14,26 +13,24 @@ export const Products = () => {
   <div className="title">
     <h2>Products</h2>
 </div>
-<div className="row">
+
+      <div className="row">
       <div className="col-md-12">
-        <p className="headerr1">Packing Items</p>
-<div className="item-card">
+        <p className="headerr1">Hoses</p>
+      <div className="item-card">
       {
-        productCard1.map((product1) => (
-         <ProductData key={product1.imgURL} {...product1} />
+        productCard3.map((product3) => (
+         <ProductData key={product3.imgURL} {...product3} />
         )) 
       }
       </div>
       <Link to='/Contact Us'><button className='btn3'>Request Quote</button></Link>
       </div>
-      
-</div>
+      </div>
 </section>
 <Footer/>
-   </>
+</>
   )
-
-
 }
 
-export default Products
+export default Hoses

@@ -179,7 +179,8 @@ img{
   box-shadow: var(--box-shadow);
   background: var(--color-secondary);
  }
- .btn1{
+ 
+ .btn3{
   display: inline-block;
   width: fit-content;
   display: flex;
@@ -187,7 +188,7 @@ img{
   gap: 1rem;
   background: var(--color-primary);
   color: var(--color-white);
-  padding: .9rem 2.2rem;
+  padding: 0.9rem 15rem;
   border-radius: var(--border-radius);
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -195,7 +196,7 @@ img{
   transition: var(--transition);
 }
 
-.btn1:hover{
+.btn3:hover{
   transform: translateY(-0.1rem);
   box-shadow: var(--box-shadow);
   background: var(--color-secondary);

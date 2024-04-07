@@ -10,6 +10,9 @@ import {
 import Products from './Products/Products.jsx';
 import About from './About/About.jsx';
 import Contact from './contact/Contact.jsx';
+import Yibco from './Products/Yibco.jsx';
+import Hoses from './Products/Hoses.jsx';
+import Categories from './sections/Categories/Categories.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +34,16 @@ const router = createBrowserRouter([
   {
     path: "/Contact Us",
     element: <Contact/>
-  }
+  },
+  {
+    path: "/Yibco tools",
+    element: <Yibco/>
+  },
+  {
+    path: "/Hoses",
+    element: <Hoses/>
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

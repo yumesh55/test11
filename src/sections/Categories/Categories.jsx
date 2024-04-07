@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 
 const Categories = () => {
   return (
+    <>
     
  <section id="categories">
 
@@ -38,12 +39,12 @@ const Categories = () => {
     <div className="categories-container container">
       {
         categoryData1.map((category1) => (
-          <Link to='/Products'><CategoriesCard key={category1.imgURL} {...category1} /></Link>
+          <Link to='/Yibco tools'><CategoriesCard key={category1.imgURL} {...category1} /></Link>
         )) 
       }
          </div>
          <div className="hoses1">
-         <Link to='/Products'><p className="headerr">Yibco Tools</p></Link>
+         <Link to='/Yibco tools'><p className="headerr">Yibco Tools</p></Link>
          </div>
     </div>
 
@@ -51,13 +52,13 @@ const Categories = () => {
     <div className="categories-container container">
       {
         categoryData2.map((category2) => (
-          <Link to='/Products'><CategoriesCard key={category2.imgURL} {...category2} /></Link>
+          <Link to='/Hoses'><CategoriesCard key={category2.imgURL} {...category2} /></Link>
         )) 
       }
     
   </div>
-  <div className="hoses">
-  <Link to='/Products'><p className="headerr">Hoses</p></Link>
+  <div className="hoses3">
+  <Link to='/Hoses'><p className="headerr">Hoses</p></Link>
   </div>
     </div>
     
@@ -91,7 +92,7 @@ const Categories = () => {
      </div>
     </div>
  </section>
+ </>
   )
 }
-
 export default Categories

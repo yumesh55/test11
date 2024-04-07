@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from './Products/Products'
 import About from './About/About'
 import Contact from './contact/Contact'
+import Yibco from './Products/Yibco'
+import Hoses from './Products/Hoses'
 
 
 
@@ -25,6 +27,8 @@ const App = () => {
     <Route path='/Footer' element={ <Footer/>} /> 
     <Route path='/About Us' element={<About/>}/>
     <Route path='/Contact Us' element={<Contact/>}/>
+    <Route path='/Yibco tools' element={<Yibco/>}/>
+    <Route path='/Hoses' element={<Hoses/>}/>
     
     </Routes>
    <Categories/>

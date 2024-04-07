@@ -6,7 +6,7 @@ const ProductData = ({imgURL, title , Description}) => {
             <img src={imgURL} alt=""/>
             <h4>{title}</h4>
             <p className="Description"> Description : {Description}</p>
-            <Link to='/Contact Us'><button className='btn'>Enquiry</button></Link>
+            
         </div>
     )
 
