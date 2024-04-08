@@ -245,4 +245,49 @@ font-size: 1rem;
  section{
   padding: 6rem 0;
  }
+ .tn-container{
+  padding: 1rem 0;
+ }
+.bn-container{
+  padding: 1rem 0;
+}
+nav hr{
+  background: var(--color-dark);
+  height: 0.05rem;
+  width: 900px;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+.navlist{
+  padding: 1rem 0;
+  margin-left: 80%;
+}
+#hero{
+  padding: 0 0 9rem;
+}
+
+.hero-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 200%;
+  margin-left: 10%;
+}
+
+.hero-left{
+  position: relative;
+  top: 11rem;
+ 
+}
+
+.hero-left p{
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.hero-right>img{
+  position: relative;
+  top: 10rem;
+}
 }
