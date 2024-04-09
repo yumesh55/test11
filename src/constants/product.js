@@ -46,6 +46,18 @@ export const productCard1 = [
         title: 'Stretch film',
         Description : 'Stretch wrap or stretch film is a highly stretchable plastic film that is wrapped around items.'
     },
+
+    {
+        imgURL:'src/constants/images (10).jpeg',
+        title: 'Plastic Edge Protector',
+        Description : 'A plastic edge protector is a sturdy strip crafted from durable plastic material. Its primary purpose is to shield edges of items from damage or wear. Widely used in packaging and transportation.'
+    },
+   
+       {
+        imgURL:'src/constants/images (12).jpeg',
+        title: 'Brown corrugated corner protectors',
+        Description : 'Brown corrugated corner protectors are durable cardboard devices designed to safeguard the corners of goods during transportation or storage.'
+    },
    
    
    

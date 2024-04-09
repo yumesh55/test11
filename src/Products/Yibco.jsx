@@ -23,7 +23,10 @@ const Yibco = () => {
         )) 
       }
       </div>
+      <div className='services3'>
+      <h2><span className="banner3">Explore Our latest</span> Catalouge and Quote </h2>
       <Link to='/Contact Us'><button className='btn3'>Request Quote</button></Link>
+      </div>
       </div>
       </div>
 </section>

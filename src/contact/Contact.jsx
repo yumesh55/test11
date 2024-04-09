@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
 import Navbar from '../sections/navbar/Navbar'
+import Footer from '../sections/Footer/Footer'
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
@@ -69,7 +70,7 @@ const Contact = () => {
 
     </div>
   </div>
-
+  <Footer/>
 </>
   )
 }

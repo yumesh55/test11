@@ -11,9 +11,6 @@
   align-items: center;
   border-radius: 25px;
   padding: 9%;
-
-
-
 }
 .item-card img{
   background-size: cover;
@@ -26,8 +23,8 @@
   opacity: 400ms;
   transition: 100ms;
   margin-bottom: 10%;
-
 }
+
 .item-card img:hover{
   transform: scale(1.2);
   opacity: 20;
@@ -67,3 +64,22 @@
  .btn3{
   margin-left: 30%;
  }
+ .services3{
+  padding: 75px 5%;
+  width: 100%;
+  background: var(--color-secondary);
+  text-align: center;
+  margin-top: 99px;
+}
+.services3 h2{
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-left: 8%;
+  margin-top: -40px;
+  color: white;
+}
+
+.banner3{
+  color: rgb(208, 135, 0);
+}
+

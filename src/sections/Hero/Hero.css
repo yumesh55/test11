@@ -23,3 +23,33 @@
     position: relative;
     top: 10rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .hero-container{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .hero-left{
+        margin-bottom: 20%;
+    }
+    .hero-right img{
+        margin-bottom: -20%;
+    }
+    
+}
+
+
+@media screen and (max-width: 720px) {
+ 
+
+    .hero-left{
+        margin-bottom: 20%;
+    }
+    .hero-right {
+        padding-bottom: 10px;
+    }
+
+ 
+}

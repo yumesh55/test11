@@ -15,7 +15,7 @@ const About = () => {
     <section className='about' id='about'>
     <div className="container about-container">
       <div className="left">
-         <img src="https://img2.storyblok.com/2048x1080/smart/f/129400/3840x2160/c3d7a922b9/hero-1.jpg" alt=''/>
+         <img src="https://www.kpwebtech.com/assets/images/others/about-image.png" alt=''/>
 
       </div>
     
