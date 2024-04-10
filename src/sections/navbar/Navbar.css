@@ -85,7 +85,7 @@ nav hr{
  }
 
 .navlist li a:hover{
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .navlist li a::after{
@@ -96,7 +96,7 @@ nav hr{
     height: 0.15rem;
     width: 0%;
     border-radius: var(--border-radius-1);
-    background: var(--color-primary);
+    background: var(--color-secondary);
     transition: var(--transition);
 }
 
@@ -148,6 +148,7 @@ nav hr{
     display:inline-block;
     -webkit-animation: scrolling-left1 10s linear infinite;
     animation: scrolling-left1 10s linear infinite;
+    color: var(--color-primary);
   }
   
   .marqueeStyle2 {
