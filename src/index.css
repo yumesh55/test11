@@ -9,6 +9,7 @@
   outline: none;
   font-family: 'Poppins', sans-serif;
 }
+
 a{
   text-decoration: none;
   
@@ -223,6 +224,9 @@ padding: 20px 7rem;
 @media screen and (max-width: 1024px) {
   body{
     font-size: 1rem;
+  }
+  html{
+    overflow-x: hidden;
   }
   .container{
     width: var(--width-md);

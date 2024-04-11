@@ -225,6 +225,7 @@ nav hr{
     .menu-btn{
       position: relative;
       z-index: 9999;
+      margin-left: -130%;
     }
  .nav-menu{
       position: absolute;
