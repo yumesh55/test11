@@ -84,6 +84,10 @@
   color: rgb(208, 135, 0);
 }
 
+.logo1{
+  gap: 8rem;
+}
+
 .item-card4{
   display: none;
 }

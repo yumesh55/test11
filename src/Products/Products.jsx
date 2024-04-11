@@ -4,6 +4,8 @@ import { productCard2 } from '../constants/product'
 import './products.css'
 import Navbar from '../sections/navbar/Navbar'
 import Footer from '../sections/Footer/Footer'
+import Marquee from "react-fast-marquee";
+import logo from './logo.jpg'
 import { Link } from 'react-router-dom';
 
 export const Products = () => {
@@ -51,6 +53,13 @@ export const Products = () => {
       </div>
       
 </div>
+<Marquee>
+<div className='logo1'>
+                <img src={logo} alt='' className='logo1'/>
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tata_logo.svg/1200px-Tata_logo.svg.png' alt='' className='logo1'/>
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5G-Mo6M76-QF-HdaDDIx_nFkMPuLvln8Kndjy-Ak_LQ&s' alt='' className='logo1'/>
+                </div>
+</Marquee>
 </section>
 <Footer/>
    </>
