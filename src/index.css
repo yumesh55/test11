@@ -196,8 +196,26 @@ img{
   cursor: pointer;
   transition: var(--transition);
 }
+.btn4{
+  width: fit-content;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+padding: 20px 7rem;
+  border-radius: var(--border-radius);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition);
+}
 
 .btn3:hover{
+  transform: translateY(-0.1rem);
+  box-shadow: var(--box-shadow);
+  background: var(--color-secondary);
+ }
+ .btn4:hover{
   transform: translateY(-0.1rem);
   box-shadow: var(--box-shadow);
   background: var(--color-secondary);
@@ -221,6 +239,7 @@ img{
   h1{
     font-size: 2rem;
   }
+  
 }
 
  

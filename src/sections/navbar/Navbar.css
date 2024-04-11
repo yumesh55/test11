@@ -294,10 +294,9 @@ nav hr{
     }
  .nav-menu{
       position: absolute;
-      top: 3.5rem;
-      right: 0;
+      margin-top: 3%;
+      margin-right: 29%;
       background: var(--color-primary);
-      height: 25rem;
       width: 100%;
       display: flex;
       align-items: center;
@@ -313,6 +312,8 @@ nav hr{
     .nav-menu li{
        text-transform: capitalize;
        padding: 0.5rem 0;
+       margin-right: -10%;
+       margin-bottom: 10%;
     }
 
     .nav-menu li a{
@@ -321,4 +322,5 @@ nav hr{
     .nav-menu li a:hover{
       color: var(--color-dark);
     }
+    
   }

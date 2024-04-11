@@ -79,7 +79,65 @@
   color: white;
 }
 
+
 .banner3{
   color: rgb(208, 135, 0);
 }
 
+.item-card4{
+  display: none;
+}
+
+.services4{
+  display: none;
+}
+
+@media screen and (max-width: 1024px ) {
+
+  .item-card{
+    display: none;
+  }
+.services3{
+  display: none;
+}
+.item-card4{
+  display: block;
+  width: 100%;
+  margin-top: -40%;
+  left: 0;
+  padding: 16%;
+  gap: 1rem;
+  transition: var(--transition);
+  border: var(--border-1);
+  border-radius:10%; 
+  border-color: var(--color-secondary);
+}
+.services4{
+  display: block;
+  width: 100%;
+  margin-top: -40%;
+  left: 0;
+  padding: 10%;
+  gap: 2rem;
+  padding: 0.1px 1rem;
+  }
+.services4 h2{
+  display: block;
+  width: 100%;
+  margin-top: 50%;
+  left: 0;
+  gap: 2rem;
+  padding: 0.9rem 0.5rem;
+
+}
+.banner4{
+  color: rgb(208, 135, 0);
+}
+.btn4{
+  display: block;
+  margin-top: 2%;
+  margin-left: 1.5%;
+  gap: 2rem;
+
+}
+}

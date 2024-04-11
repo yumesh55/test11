@@ -53,7 +53,7 @@ const navbar = () => {
                 <div className='logo1'>
                 <img src={logo} alt='' className='logo'/>
   
-    <ul className= "nav-menu" style={{transform: menuOpened && "translate(0%)"}}>
+    <ul className= "nav-menu" style={{transform: menuOpened && "translate(1%)"}}>
                 <Link to="/Home"><li><a><AiOutlineHome className='icon' /> Home</a></li></Link>
                 <Link to="/About Us"><li><a><AiOutlineInfoCircle className='icon' /> About Us</a></li></Link>
                 <Link to="/Home"><li><a><AiOutlineShopping className='icon'/> Products</a></li></Link>

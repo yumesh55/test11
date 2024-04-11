@@ -32,6 +32,26 @@ export const Products = () => {
       
 </div>
 </section>
+
+<section id="mobile">
+  <div className="cardtitle">
+<div className="row">
+
+<div className="item-card4">
+      {
+        productCard1.map((product1) => (
+         <ProductData key={product1.imgURL} {...product1} />
+        )) 
+      }
+      </div>
+      <div className='services4'>
+      <h2><span className="banner4">Explore Our latest</span> Catalouge and Quote </h2>
+      <Link to='/Contact Us'><button className='btn4'>Request Quote</button></Link>
+      </div>
+      </div>
+      
+</div>
+</section>
 <Footer/>
    </>
   )
