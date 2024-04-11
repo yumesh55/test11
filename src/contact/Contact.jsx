@@ -42,19 +42,19 @@ const Contact = () => {
           
             <h3 className="title1">Contact us</h3>
             <div className="input-container">
-              <input type="text" name="name" class="input"/>
-              <label for="">Username</label>
+              <input type="text" name="name" class="input" required/>
+              <label for="">Name</label>
               <span>Username</span>
             </div>
 
             <div className="input-container">
-              <input type="email" name="email" class="input"/>
-              <label for="">Email</label>
+              <input type="email" name="email" class="input" required/>
+              <label for="">Email ID</label>
               <span>Email</span>
             </div>
 
             <div className="input-container">
-              <input type="tel" name="Phone" class="input"/>
+              <input type="tel" name="Phone" class="input" required/>
               <label for="">Contact Number</label>
               <span>Contact Number</span>
             </div>
