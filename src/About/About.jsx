@@ -20,7 +20,7 @@ const About = () => {
       </div>
     
       <div className="right">
-        <h4>About Us</h4>
+        <h4>About :</h4>
         <p>At vels Enterprises, we're passionate about providing top-quality packing solutions to meet the diverse needs of our customers. With years of experience in the industry, we have established ourselves as a trusted source for reliable packing items and exceptional service.</p>
         
         <h4>Our Mission :</h4>
