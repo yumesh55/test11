@@ -97,7 +97,7 @@ const Categories = () => {
     </div>
  </section>
 
- <section id="categoriesmobile">
+{/* <section id="categoriesmobile">
 
   <div className="title-mobile">
     <h2>Our Products</h2>
@@ -174,7 +174,7 @@ const Categories = () => {
      </div>
      </div>
     </div>
- </section>
+    </section>*/}
  </>
   )
 }
