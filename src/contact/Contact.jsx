@@ -89,11 +89,12 @@ const Contact = () => {
 
             <div className="information-mobile">
               <h7>Maps</h7>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.7213039442013!2d76.97605323697707!3d10.943394016350867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b0d36d281b9%3A0x649f62539c00be34!2sVels%20Enterprises!5e0!3m2!1sen!2sin!4v1712327841978!5m2!1sen!2sin" width="400" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.7213039442013!2d76.97605323697707!3d10.943394016350867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85b0d36d281b9%3A0x649f62539c00be34!2sVels%20Enterprises!5e0!3m2!1sen!2sin!4v1712327841978!5m2!1sen!2sin" width="300" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
           </div>
       </div>
+      
         <div className="contact-form-mobile">
           <span className="circle one-1"></span>
           <span className="circle two-2"></span> 

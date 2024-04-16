@@ -197,28 +197,27 @@ h7{
     display: none;
 }
 .contact-containermb{
-    position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 80px 10%;
-    margin-top:  10%;
+    padding: 80px 5%;
+    margin-top:  20%;
     background-color: #fafafa;
     display: inline-block;
   
 }
 
 .form-mobile{
-    max-width: 1000px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    display: inline-block;
+    display: table-row;
+
 }
 
-.contact-infomb{
+.contact-form-mobile{
     background-color: #1abc9c;
     position: relative;
+   display: table-row;
 }
 
 .circle{
@@ -227,21 +226,21 @@ h7{
     position: absolute;
 }
 
-.circle.one{
+.circle.one-1{
     width: 130px;
     height: 130px;
     top: 130px;
     right: -40px;
 }
 
-.circle.two{
+.circle.two-2{
     width: 80px;
     height: 80px;
     top: 10px;
     right: 30px;
 }
 
-.contact-form:before{
+.contact-form-mobile:before{
     content: '';
     position: absolute;
     width: 26px;
@@ -252,20 +251,20 @@ h7{
     left: -13px;
 }
 
-form-mobile{
+.form-mobile{
     padding: 2.3rem 2.2rem;
     z-index: 10;
     position: relative;
 }
 
-.title1{
+.titlemb{
     color: #fff;
     font-weight: 500;
     font-size: 1.5rem;
     margin-bottom: 0.7rem;
 }
 
-.input-container{
+.input-container-mobile{
     position: relative;
     margin: 1rem 0;
 }
@@ -293,7 +292,7 @@ textarea.input{
     resize: none;
 }
 
-.input-container label{
+.input-container-mobile label{
     position: absolute;
     top: 50%;
     left: 15px;
@@ -307,7 +306,7 @@ textarea.input{
     transition: 0.5;
 }
 
-.input-container.textarea label{
+.input-container-mobile.textarea label{
     top: 1rem;
     transform: translateY(0);
 }
@@ -326,7 +325,7 @@ textarea.input{
     margin: 0;
 }
 
-.input-container span{
+.input-container-mobile span{
     position: absolute;
     top: 0;
     left: 25px;
@@ -339,8 +338,8 @@ textarea.input{
     
 }
 
-.input-container input:focus~label,
-.input-container input:valid~label{
+.input-container-mobile input:focus~label,
+.input-container-mobile input:valid~label{
     top: 0;
     font-size: 1rem;
     background: var(--color-secondary);
@@ -352,12 +351,12 @@ textarea.input{
     margin-right: 0.7rem;
 }
 
-.contact-info{
+.contact-infomb{
     padding: 2.3rem 2.2rem;
     position: relative;
 }
 
-.contact-info .info1{
+.contact-infomb .info12{
     color: #1abc9c ;
 }
 
@@ -366,7 +365,7 @@ textarea.input{
     margin: 1.5rem 0 2rem 0;
 }
 
-.information{
+.information-mobile{
     display: grid;
     color: #555;
     margin: 0.7rem 0;
