@@ -1,53 +1,153 @@
 .about{
-    background: var(--color-black);
-    padding: 1;
-    color: white;
-    margin-top: 5%;
+  background: var(--color-black);
+  padding: 0;
+  color: white;
+  margin-top: 5%;
 }
 
 .about-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-container .right{
-    margin: auto;
-    padding-left: 3rem;
-    padding-right: 6rem;
+  margin: auto;
+  padding-left: 3rem;
+  padding-right: 6rem;
 }
 
 .about-container .right h4{
-    text-transform: uppercase;
-    margin: 2rem 0;
+  text-transform: uppercase;
+  margin: 2rem 0;
 }
 
 .about-container .right p{
-    color: var(--color-light);
+  color: var(--color-light);
 }
 
 .about-container .left{
-    margin-top: 20%;
+  margin-top: 20%;
 
 }
 
 .about1{
-    text-align: center;
-    margin-top: 9%;
-    font-weight: 600;
-    font-size: 2rem;
+  text-align: center;
+  margin-top: 6%;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .services1{
+  padding: 50px 5%;
+  background: black;
+  text-align: center;
+  margin-top: 200px;
+  margin: 9%;
+
+  
+}
+
+.services1 h2{
+  font-size: 2rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: white;
+  display: grid;
+}
+
+
+.service-container1{
+  display: grid;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: 50px auto;
+  gap: 2rem auto;
+  color: white;
+}
+
+.service-card1 i{
+  font-size: 2rem;
+}
+
+
+.service-card1 h4{
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.service-card1  p{
+  color: #e9e9e9;
+  padding: 1rem 1%;
+  gap: 2rem;
+  
+}
+
+.about-container22{
+  display: none;
+}
+.services-27{
+  display: none;
+}
+
+.about12{
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+*{
+  max-width: 100vw;
+}
+
+  .about-container{
+    display: none;
+  }
+  .services1{
+    display: none;
+  }
+  .aboutmobile{
+    background: var(--color-black);
+    padding: 0;
+    color: white;
+    margin-top:  29%;
+  }
+
+  .about-container22{
+display: inline-block;
+
+  }
+  
+  .about-container22 .right-mobile{
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .about-container22 .right-mobile h4{
+    text-transform: uppercase;
+    margin: 2.5rem 0;
+  }
+  
+  .about-container22.right-mobile p{
+    color: var(--color-light);
+  }
+  
+  .about-container22 .left-mobile{
+    margin-top: 0%;
+  
+  }
+
+  .services-27{
     padding: 50px 5%;
     background: black;
     text-align: center;
     margin-top: 200px;
     margin: 9%;
-
+    display: inline-block;
+  
     
   }
   
-  .services1 h2{
+  .services-27 h2{
     font-size: 2rem;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -66,20 +166,29 @@
     color: white;
   }
   
-  .service-card1 i{
+  .service-card20 i{
     font-size: 2rem;
+    color: white;
   }
-
   
-  .service-card1 h4{
+  
+  .service-card20 h4{
     margin: 10px 0;
     font-size: 1rem;
+    color: white;
   }
   
-  .service-card1  p{
+  .service-card20  p{
     color: #e9e9e9;
     padding: 1rem 1%;
     gap: 2rem;
     
   }
-
+  .about12{
+    text-align: center;
+  margin-bottom: 10%;
+  font-weight: 600;
+  font-size: 2rem;
+  display: flow-root;
+  }
+}

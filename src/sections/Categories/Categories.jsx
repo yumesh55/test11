@@ -97,7 +97,7 @@ const Categories = () => {
     </div>
  </section>
 
-{/* <section id="categoriesmobile">
+ <section id="categoriesmobile">
 
   <div className="title-mobile">
     <h2>Our Products</h2>
@@ -146,35 +146,35 @@ const Categories = () => {
     </div>
     
 </div>
-    <div className='services1'>
+    <div className='servicesmobile'>
     <h2>Why Choose Us?</h2>
    <p>We source our packing items from trusted suppliers to ensure exceptional quality and reliability,
     Enjoy competitive prices without compromising on quality, making packing affordable for everyone 
     Our knowledgeable team is here to provide expert advice and guidance to help you find the perfect 
     packing solutions for your specific needs.</p>
-    <div className='service-container-1'>
-     <div className="service-card1">
+    <div className='service-mobile'>
+     <div className="service-card9">
     <i className='line-chart'><AiOutlineLineChart /></i>
     <h4>Quality Assurance</h4>
      </div>
 
-     <div className="service-card1">
+     <div className="service-card9">
     <i className='line-chart'><BiSelectMultiple /></i>
     <h4>Wide Selection</h4>
      </div>
 
-     <div className="service-card1">
+     <div className="service-card9">
     <i className='line-chart'><IoPricetagOutline /></i>
     <h4>Competitive Pricing</h4>
      </div>
      
-     <div className="service-card1">
+     <div className="service-card9">
     <i className='line-chart'><GrUserExpert /></i>
     <h4>Expert Advice</h4>
      </div>
      </div>
     </div>
-    </section>*/}
+    </section>
  </>
   )
 }
