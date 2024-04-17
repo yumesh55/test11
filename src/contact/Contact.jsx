@@ -142,7 +142,7 @@ const Contact = () => {
       allowClickAway
       notificationSound = "true"
     />
-  <Footer/>
+  
   <Footer/>
 </>
   )
