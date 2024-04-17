@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 import Navbar from '../sections/navbar/Navbar'
 import Footer from '../sections/Footer/Footer'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
@@ -133,6 +134,15 @@ const Contact = () => {
 
     </div>
   </div>
+  <FloatingWhatsApp 
+      phoneNumber = "919585995755"
+      accountName = "Vels Enterprises"
+      statusMessage = "Online"
+      chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
+      allowClickAway
+      notificationSound = "true"
+    />
+  <Footer/>
   <Footer/>
 </>
   )

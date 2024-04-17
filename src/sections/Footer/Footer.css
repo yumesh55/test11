@@ -15,8 +15,14 @@
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    
-    
+    text-align: start;
+}
+
+.footer-title1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-left: 4.5%;
 }
 
 .footer-box:first-child img{
@@ -83,13 +89,15 @@
         font-size: 1.1rem;
         font-weight: 600;
         margin-top: 10%;
-        gap: 1rem;
+        gap: 2rem;
+        margin-left: 6.5%;
                
    }
    .mobile-title1 {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 4.5%;
            
 }
     
@@ -97,6 +105,8 @@
         width: 9rem;
         border-radius: var(--border-radius-1);
         margin: 1rem 29.5%;
+        margin-right: 29%;
+        margin-bottom: 10%;
         
         
     }
@@ -104,10 +114,16 @@
     .mobile-box:first-child h4{
         font-weight: 500;
         font-size: 1rem;
-        margin-left: 1rem;
+        margin-left: 1.3rem;
         margin-bottom: 9%;
     }
-    
+    .mobile-title2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 10%;
+               
+    }
+        
     .mobile-box:first-child p{
         font-size: 0.8rem;
         font-weight: 500;
@@ -120,6 +136,8 @@
         font-size: 0.88rem;
         color: var(--color-dark);
         margin-bottom: 1rem;
+        margin-top: 5.5%;
+        font-weight: 500;
     }
     
     .mobile-row:last-child p{

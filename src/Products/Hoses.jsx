@@ -3,6 +3,7 @@ import { productCard3 } from '../constants/product'
 import './products.css'
 import Navbar from '../sections/navbar/Navbar'
 import Footer from '../sections/Footer/Footer'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Link } from 'react-router-dom';
 
 const Hoses = () => {
@@ -52,6 +53,14 @@ const Hoses = () => {
       </div>
       </div>
 </section>
+<FloatingWhatsApp 
+      phoneNumber = "919585995755"
+      accountName = "Vels Enterprises"
+      statusMessage = "Online"
+      chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
+      allowClickAway
+      notificationSound = "true"
+    />
 <Footer/>
 </>
   )

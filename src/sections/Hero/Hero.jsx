@@ -1,5 +1,6 @@
 import './Hero.css'
 import Image from '../Hero/banner1.jpg'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Link } from 'react-router-dom';
  
  const Hero = () => {
@@ -17,8 +18,15 @@ import { Link } from 'react-router-dom';
       <div className='hero-right'>
         <img src={Image}/>
       </div>
-      
     </div>
+    <FloatingWhatsApp 
+      phoneNumber = "919585995755"
+      accountName = "Vels Enterprises"
+      statusMessage = "Online"
+      chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
+      allowClickAway
+      notificationSound = "true"
+    />
     </section>
   )
 }

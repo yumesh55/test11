@@ -199,10 +199,11 @@ h7{
 .contact-containermb{
     width: 100%;
     min-height: 100vh;
-    padding: 80px 5%;
+    padding: 80px 1%;
     margin-top:  20%;
     background-color: #fafafa;
     display: inline-block;
+  
   
 }
 
@@ -211,6 +212,7 @@ h7{
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     display: table-row;
+    align-items: center;
 
 }
 
@@ -218,6 +220,7 @@ h7{
     background-color: #1abc9c;
     position: relative;
    display: table-row;
+   left:14%;
 }
 
 .circle{
@@ -249,11 +252,12 @@ h7{
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
+    
 }
 
 .form-mobile{
     padding: 2.3rem 2.2rem;
-    z-index: 10;
+    z-index: 9999;
     position: relative;
 }
 
@@ -373,7 +377,7 @@ textarea.input{
     font-size: 0.95rem;
 }
 
-h7{
+.h7{
     font-weight: 900;
     margin-bottom: 9px;
 }

@@ -4,6 +4,7 @@ import Footer from '../sections/Footer/Footer'
 import { AiFillCheckCircle } from "react-icons/ai";
 import { FaShippingFast } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { TbTargetArrow } from "react-icons/tb";
 import './about.css'
 const About = () => {
@@ -112,6 +113,14 @@ const About = () => {
      </div>
      </div>
     </section>
+    <FloatingWhatsApp 
+      phoneNumber = "919585995755"
+      accountName = "Vels Enterprises"
+      statusMessage = "Online"
+      chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
+      allowClickAway
+      notificationSound = "true"
+    />
   <Footer/>
     </>
   )

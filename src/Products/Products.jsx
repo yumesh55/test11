@@ -6,6 +6,7 @@ import Navbar from '../sections/navbar/Navbar'
 import Footer from '../sections/Footer/Footer'
 import Marquee from "react-fast-marquee";
 import logo from './logo.jpg'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Link } from 'react-router-dom';
 
 export const Products = () => {
@@ -61,6 +62,15 @@ export const Products = () => {
                 </div>
 </Marquee>
 </section>
+<FloatingWhatsApp 
+      phoneNumber = "919585995755"
+      accountName = "Vels Enterprises"
+      statusMessage = "Online"
+      chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
+      allowClickAway
+      notificationSound = "true"
+    />
+  <Footer/>
 <Footer/>
    </>
   )
