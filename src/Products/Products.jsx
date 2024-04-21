@@ -71,7 +71,7 @@ export const Products = () => {
       notificationSound = "true"
     />
   <Footer/>
-<Footer/>
+
    </>
   )
 
