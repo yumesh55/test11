@@ -26,6 +26,7 @@ import { Link } from 'react-router-dom';
       chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
       allowClickAway
       notificationSound = "true"
+      avatar = "src/sections/navbar/logo.jpg"
     />
     </section>
   )

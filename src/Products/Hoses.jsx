@@ -60,6 +60,7 @@ const Hoses = () => {
       chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"
       allowClickAway
       notificationSound = "true"
+      avatar = "src/sections/navbar/logo.jpg"
     />
 <Footer/>
 </>
