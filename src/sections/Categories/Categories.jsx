@@ -95,7 +95,13 @@ const Categories = () => {
      </div>
      </div>
     </div>
+    <div className='services10'>
+      <h2><span className="banner4">Explore Our latest</span> Catalouge and Quote </h2>
+      <Link to='/Contact Us'><button className='btn4'>Request Quote</button></Link>
+      </div>
+    
  </section>
+ 
 
  <section id="categoriesmobile">
 
@@ -175,6 +181,8 @@ const Categories = () => {
      </div>
     </div>
     </section>
+
+    
  </>
   )
 }

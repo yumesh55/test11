@@ -10,14 +10,14 @@ export const categoryData = [
 
 export const categoryData1 = [
     {
-        imgURL:'https://4.imimg.com/data4/SG/JT/MY-2793878/hand-tool.jpg'
+        imgURL:'src/constants/hoses.webp'
     },
  
 ];
 
 export const categoryData2 = [
     {
-        imgURL:'https://5.imimg.com/data5/SELLER/Default/2020/12/KO/LC/ZR/2999106/hydraulic-pipe-fittings-1--500x500.png',
+        imgURL:'src/constants/yibco.jpeg',
         
     }
    
