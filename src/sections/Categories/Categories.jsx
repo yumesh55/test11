@@ -96,8 +96,7 @@ const Categories = () => {
      </div>
     </div>
     <div className='services10'>
-      <h2><span className="banner4">Explore Our latest</span> Catalouge and Quote </h2>
-      <Link to='/Contact Us'><button className='btn4'>Request Quote</button></Link>
+      <h2><span className="banner6">Need our packing products? </span> Contact Now </h2>
       </div>
     
  </section>

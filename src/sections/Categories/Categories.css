@@ -141,9 +141,9 @@ margin-top: 4%;
   color: #e9e9e9;
 }
 .services10{
-  padding: 80px;
-  background: var(--color-secondary);
-  background-image: url('https://media.licdn.com/dms/image/D5612AQFpzqfgitbY9A/article-cover_image-shrink_720_1280/0/1665709063131?e=2147483647&v=beta&t=Sr2IcUQz4GFxVLQ8LdBPbYkrndJvxWphD38k8PlaO7Y');
+  padding: 7%;
+  background: var(--color-bg);
+  background-image: url('https://www.pbctoday.co.uk/news/wp-content/uploads/2023/10/iStock-1370911387-scaled.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -151,14 +151,19 @@ margin-top: 4%;
   margin-top: 15%;
   image-rendering: optimizeQuality;  
   margin-bottom: -80px;
+  
 }
 .services10 h2{
   font-size: 2rem;
   margin-bottom: 30px;
   margin-left: 8%;
   margin-top: -40px;
-  color: white;
+  text-align: center;
+  color: slateblue;
+  font-weight: 600;
+ 
 }
+
 .categoriesmobile{
   display: none;
 }
