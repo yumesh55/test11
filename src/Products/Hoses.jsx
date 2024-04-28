@@ -54,7 +54,7 @@ const Hoses = () => {
       </div>
 </section>
 <FloatingWhatsApp 
-      phoneNumber = "919585995755"
+      phoneNumber = "916383064311"
       accountName = "Vels Enterprises"
       statusMessage = "Online"
       chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"

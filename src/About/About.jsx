@@ -60,9 +60,12 @@ const About = () => {
     <p>At vels Enterprises, we are committed to minimizing our environmental footprint. We actively seek out eco-friendly packing materials and practices to reduce waste and promote sustainability. By choosing us, you can trust that you're not only protecting your belongings but also the planet.</p>
      </div>
      </div>
-     </div>
-
+    </div>
   </section>
+
+  <div className='services30'>
+      <h2><span className="banner50">Trust Us? </span> Contact Now </h2>
+      </div>
 
     <section className='aboutmobile' id='about-19'>
     <h4 className='about12'>About Us</h4>
@@ -114,7 +117,7 @@ const About = () => {
      </div>
     </section>
     <FloatingWhatsApp 
-      phoneNumber = "919585995755"
+      phoneNumber = "916383064311"
       accountName = "Vels Enterprises"
       statusMessage = "Online"
       chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"

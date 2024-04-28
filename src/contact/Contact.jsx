@@ -23,7 +23,7 @@ const Contact = () => {
 
             <div className="information">
               <h7>Contact Number: </h7>
-                <p>Ajith : 7942619417</p>
+                <p>Ajith : +91 6383064311</p>
             </div>
 
             <div className="information">
@@ -37,7 +37,7 @@ const Contact = () => {
           <span className="circle one"></span>
           <span className="circle two"></span> 
 
-          <form action="https://formsubmit.co/yumeshjayasutha@gmail.com" method="POST" >
+          <form action="https://formsubmit.co/velsenterprises777@gmail.com" method="POST" >
            {/*<input type="hidden" name="_captcha" value="false"/>*/}
           <input type="hidden" name="_autoresponse" value="Dear Customer, Thanks for Choosing Vels Enterprises. Our exceutive will get into touch shortly. "></input>
           
@@ -85,7 +85,7 @@ const Contact = () => {
 
             <div className="information-mobile">
               <h7>Contact Number: </h7>
-                <p>Ajith : 7942619417</p>
+                <p>Ajith : +91 6383064311</p>
             </div>
 
             <div className="information-mobile">
@@ -100,7 +100,7 @@ const Contact = () => {
           <span className="circle one-1"></span>
           <span className="circle two-2"></span> 
 
-          <form action="https://formsubmit.co/yumeshjayasutha@gmail.com" method="POST" >
+          <form action="https://formsubmit.co/velsenterprises777@gmail.com" method="POST" >
            {/*<input type="hidden" name="_captcha" value="false"/>*/}
           <input type="hidden" name="_autoresponse" value="Dear Customer, Thanks for Choosing Vels Enterprises. Our exceutive will get into touch shortly. "></input>
           
@@ -135,7 +135,7 @@ const Contact = () => {
     </div>
   </div>
   <FloatingWhatsApp 
-      phoneNumber = "919585995755"
+      phoneNumber = "916383064311"
       accountName = "Vels Enterprises"
       statusMessage = "Online"
       chatMessage = "Welcome to Vels Enterprises, Please enter your requirement"

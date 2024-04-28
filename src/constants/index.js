@@ -10,7 +10,7 @@ export const categoryData = [
 
 export const categoryData1 = [
     {
-        imgURL:'src/constants/hoses.webp'
+        imgURL:'https://5.imimg.com/data5/PG/GD/YE/SELLER-3359453/pneumatic-strapping-tool-500x500.jpg'
     },
  
 ];
@@ -40,14 +40,14 @@ export const categoryMobile = [
 
 export const categoryMobile1 = [
     {
-        imgURL:'https://4.imimg.com/data4/SG/JT/MY-2793878/hand-tool.jpg'
+        imgURL:'https://5.imimg.com/data5/PG/GD/YE/SELLER-3359453/pneumatic-strapping-tool-500x500.jpg'
     },
  
 ];
 
 export const categoryMobile2 = [
     {
-        imgURL:'https://5.imimg.com/data5/SELLER/Default/2020/12/KO/LC/ZR/2999106/hydraulic-pipe-fittings-1--500x500.png',
+        imgURL:'src/constants/yibco.jpeg',
         
     }
    

@@ -37,7 +37,7 @@ const navbar = () => {
                 <Link to="/Home"><li><a><AiOutlineShopping className='icon'/> Products</a></li></Link>
                 <Link to="/Contact Us"><li><a><AiOutlineContacts className='icon' /> Contact Us</a></li></Link>
                 <li><a href='src/sections/navbar/Velsenterprises.pdf'><AiOutlineBook className='icon'/> Download Brochure</a></li>
-                <li><a class="cnnContents1" href="https://api.whatsapp.com/send?phone=9585995755"><ImWhatsapp /> Whatsapp</a></li>
+                <li><a class="cnnContents1" href="https://api.whatsapp.com/send?phone=6383064311"><ImWhatsapp /> Whatsapp</a></li>
                 </ul>
             </div>
             <div id='rssBlock'>
@@ -59,7 +59,7 @@ const navbar = () => {
                 <Link to="/Home"><li><a><AiOutlineShopping className='icon'/> Products</a></li></Link>
                 <Link to="/Contact Us"><li><a><AiOutlineContacts className='icon' /> Contact Us</a></li></Link>
                 <li><a href='src/sections/navbar/Velsenterprises.pdf'><AiOutlineBook className='icon'/> Download Brochure</a></li>
-                <li><a class="cnnContents1" href="https://api.whatsapp.com/send?phone=9585995755"><ImWhatsapp /> Whatsapp</a></li>
+                <li><a class="cnnContents1" href="https://api.whatsapp.com/send?phone=6383064311"><ImWhatsapp /> Whatsapp</a></li>
                 </ul>
                 <div className="menu-btn">
                   {!menuOpened ?

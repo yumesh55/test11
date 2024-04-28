@@ -8,6 +8,7 @@ import { AiOutlineShopping } from "react-icons/ai";
 import { AiOutlineContacts } from "react-icons/ai";
 import { AiOutlineBook } from "react-icons/ai";
 import { BiMapAlt } from "react-icons/bi";
+import { MdOutlineCallEnd } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -37,8 +38,8 @@ const Footer = () => {
       </div>
       <div className="footer-box">
         <h4 className="footer-title"><span><BsTelephone/></span> Contact Us </h4>
-        <p><span><BiMap /></span>236M, LIC Colony Sidco Post, Pollachi Main Road, Coimbatore Industrial Estate Sub Post Office, Coimbatore-641021, Tamil Nadu, India</p>
-
+        <p><span><BiMap /></span>236M, LIC Colony Sidco Post, Pollachi Main Road, Coimbatore Industrial Estate Sub Post Office, Coimbatore-641021, Tamil Nadu, India </p>
+        <p className="Mobilenumber"><span><MdOutlineCallEnd /></span> +91 6383064311</p>
         
       </div>
     </div>
@@ -69,8 +70,8 @@ const Footer = () => {
       </div>
       <div className="mobile-box">
         <h4 className="mobile-title2"><span><BsTelephone/></span> Contact Us </h4>
-        <p><span><BiMap /></span>236M, LIC Colony Sidco Post, Pollachi Main Road, Coimbatore Industrial Estate Sub Post Office, Coimbatore-641021, Tamil Nadu, India</p>
-
+        <p><span><BiMap /></span>236M, LIC Colony Sidco Post, Pollachi Main Road, Coimbatore Industrial Estate Sub Post Office, Coimbatore-641021, Tamil Nadu, India </p>
+        <p className="Mobilenumber1"><span><MdOutlineCallEnd /></span> +91 6383064311</p>
         
       </div>
     </div>
