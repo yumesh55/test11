@@ -16,7 +16,8 @@ export const Products = () => {
     <section id="product">
   <div className="title">
     <h2>Products</h2>
-</div>
+   </div>
+   
 <div className="row">
       <div className="col-md-12">
         <p className="headerr1">Packing Items</p>
