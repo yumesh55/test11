@@ -15,7 +15,7 @@ export const Products = () => {
     <Navbar/>
     <section id="product">
   <div className="title">
-    <h2>Product</h2>
+    <h2>Products</h2>
    </div>
 
 <div className="row">
